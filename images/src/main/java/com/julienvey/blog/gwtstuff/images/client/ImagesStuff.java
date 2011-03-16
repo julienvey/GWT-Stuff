@@ -19,10 +19,10 @@ public class ImagesStuff implements EntryPoint {
 		main.add(demo1);
 		demo1.setSpacing(2);
 
-		Image largeImage = new Image(Resources.INSTANCE.zenika1Large());
+		Image largeImage = new Image(ImageResources.INSTANCE.zenika1Large());
 		demo1.add(largeImage);
 
-		Image smallImage = new Image(Resources.INSTANCE.zenika1Small());
+		Image smallImage = new Image(ImageResources.INSTANCE.zenika1Small());
 		demo1.add(smallImage);
 
 		/* Demo 2 */
@@ -30,13 +30,13 @@ public class ImagesStuff implements EntryPoint {
 		main.add(demo2);
 		demo2.setSpacing(2);
 
-		Image large = new Image(Resources.INSTANCE.zenikaLarge());
+		Image large = new Image(ImageResources.INSTANCE.zenikaLarge());
 		demo2.add(large);
 
-		Image medium = new Image(Resources.INSTANCE.zenikaMedium());
+		Image medium = new Image(ImageResources.INSTANCE.zenikaMedium());
 		demo2.add(medium);
 
-		Image small = new Image(Resources.INSTANCE.zenika1Small());
+		Image small = new Image(ImageResources.INSTANCE.zenika1Small());
 		demo2.add(small);
 
 	}

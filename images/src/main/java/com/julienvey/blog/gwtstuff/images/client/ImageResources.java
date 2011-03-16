@@ -5,9 +5,9 @@ import com.google.gwt.resources.client.ClientBundle;
 import com.google.gwt.resources.client.ImageResource;
 import com.google.gwt.resources.client.ImageResource.ImageOptions;
 
-public interface Resources extends ClientBundle {
+public interface ImageResources extends ClientBundle {
 
-	public static final Resources INSTANCE = GWT.create(Resources.class);
+	public static final ImageResources INSTANCE = GWT.create(ImageResources.class);
 
 	public static final String ROOT_DIR = "com/julienvey/blog/gwtstuff/images/public/";
 
