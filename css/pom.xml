@@ -49,7 +49,6 @@
         <configuration>
           <runTarget>ImagesStuff.html</runTarget>
           <hostedWebapp>${webappDirectory}</hostedWebapp>
-          <i18nMessagesBundle>com.julienvey.blog.gwtstuff.images.client.Messages</i18nMessagesBundle>
         </configuration>
       </plugin>
 

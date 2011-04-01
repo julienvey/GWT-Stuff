@@ -1,4 +1,4 @@
-package com.julienvey.blog.gwtstuff.images.client;
+package com.julienvey.blog.gwtstuff.css.client;
 
 import com.google.gwt.core.client.EntryPoint;
 import com.google.gwt.user.client.ui.HorizontalPanel;
@@ -6,7 +6,7 @@ import com.google.gwt.user.client.ui.Image;
 import com.google.gwt.user.client.ui.RootPanel;
 import com.google.gwt.user.client.ui.VerticalPanel;
 
-public class ImagesStuff implements EntryPoint {
+public class CssStuff implements EntryPoint {
 
 	public void onModuleLoad() {
 		RootPanel root = RootPanel.get();
@@ -19,10 +19,10 @@ public class ImagesStuff implements EntryPoint {
 		main.add(demo1);
 		demo1.setSpacing(2);
 
-		Image largeImage = new Image(ImageResources.INSTANCE.zenika1Large());
+		Image largeImage = new Image(CssResources.INSTANCE.zenika1Large());
 		demo1.add(largeImage);
 
-		Image smallImage = new Image(ImageResources.INSTANCE.zenika1Small());
+		Image smallImage = new Image(CssResources.INSTANCE.zenika1Small());
 		demo1.add(smallImage);
 
 		/* Demo 2 */
@@ -30,13 +30,13 @@ public class ImagesStuff implements EntryPoint {
 		main.add(demo2);
 		demo2.setSpacing(2);
 
-		Image large = new Image(ImageResources.INSTANCE.zenikaLarge());
+		Image large = new Image(CssResources.INSTANCE.zenikaLarge());
 		demo2.add(large);
 
-		Image medium = new Image(ImageResources.INSTANCE.zenikaMedium());
+		Image medium = new Image(CssResources.INSTANCE.zenikaMedium());
 		demo2.add(medium);
 
-		Image small = new Image(ImageResources.INSTANCE.zenika1Small());
+		Image small = new Image(CssResources.INSTANCE.zenika1Small());
 		demo2.add(small);
 
 	}

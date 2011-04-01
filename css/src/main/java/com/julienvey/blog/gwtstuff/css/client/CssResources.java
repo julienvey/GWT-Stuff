@@ -1,13 +1,13 @@
-package com.julienvey.blog.gwtstuff.images.client;
+package com.julienvey.blog.gwtstuff.css.client;
 
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.resources.client.ClientBundle;
 import com.google.gwt.resources.client.ImageResource;
 import com.google.gwt.resources.client.ImageResource.ImageOptions;
 
-public interface ImageResources extends ClientBundle {
+public interface CssResources extends ClientBundle {
 
-	public static final ImageResources INSTANCE = GWT.create(ImageResources.class);
+	public static final CssResources INSTANCE = GWT.create(CssResources.class);
 
 	public static final String ROOT_DIR = "com/julienvey/blog/gwtstuff/images/public/";
 
