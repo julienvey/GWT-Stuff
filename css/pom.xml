@@ -47,7 +47,7 @@
           </execution>
         </executions>
         <configuration>
-          <runTarget>ImagesStuff.html</runTarget>
+          <runTarget>CssStuff.html</runTarget>
           <hostedWebapp>${webappDirectory}</hostedWebapp>
         </configuration>
       </plugin>
